@@ -55,10 +55,12 @@ Si un periodista, un fiscal o un escéptico pregunta, esto es lo que se hace —
 
 ## Aplicación retroactiva: ayuda #001
 
-La ayuda #001 (~1,000 personas alimentadas, Fraijanes, 4-abr-2026) se registró antes de que existiera este protocolo. Para completar su expediente faltan:
+La ayuda #001 (~1,000 platos servidos, Fraijanes, 4-abr-2026) se registró antes de que existiera este protocolo. Estado del expediente al 4 de julio de 2026:
 
-- [ ] Nombres de al menos 2 verificadores presentes que consientan ser públicos
-- [ ] Fotos de la jornada sin rostros identificables de quienes recibieron
-- [ ] Método de conteo de las ~1,000 raciones
+- [x] Método de conteo: platos servidos (~1,000), donación de pizza
+- [x] Origen de los recursos: donante en especie que pidió reserva de su nombre (aceptado: la reserva no condicionó la ayuda)
+- [x] Primera verificadora: Delia Genoveva, quien registró la jornada
+- [ ] Segundo verificador presente que consienta ser público
+- [ ] Fotos de la jornada sin rostros identificables de quienes recibieron — **no se han encontrado**
 
 **Fecha límite: 18 de julio de 2026.** Si no se completa, la ayuda se re-etiqueta como "registro histórico — verificación incompleta". Decir la verdad sobre nuestro propio registro, incluso cuando duele, es el testimonio.

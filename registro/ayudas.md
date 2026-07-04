@@ -8,12 +8,13 @@ Cada ayuda concreta canalizada por la red queda registrada aquí. La transparenc
 
 ## Ayuda #001
 
-- **Fecha:** 4 de abril de 2026, 13:52
+- **Fecha:** 4 de abril de 2026
 - **Lugar:** KM 29.5, Caserío Concepción Rabanales, Fraijanes, Guatemala
 - **Necesidad atendida:** alimentación
-- **Resultado:** 1,000 personas alimentadas en un día
-- **Origen de los recursos:** donaciones en especie (alimentos donados directamente). No hubo flujo de dinero; ver [finanzas.md](finanzas.md).
-- **Verificación:** donantes presentes durante la entrega actúan como verificadores. Sus identidades constan en el registro interno de la célula y se publicarán cuando den su consentimiento. Expediente en proceso de completarse según el [protocolo de verificación](verificacion.md) (fecha límite: 18-jul-2026).
+- **Resultado:** ~1,000 platos de comida servidos en un día (pizza donada)
+- **Origen de los recursos:** donación en especie de un donante que pidió reserva de su nombre. No hubo flujo de dinero; ver [finanzas.md](finanzas.md).
+- **Registró:** Delia Genoveva (célula 001 — Fraijanes)
+- **Verificación:** expediente en proceso según el [protocolo de verificación](verificacion.md). Falta un segundo verificador público y evidencia fotográfica (las fotos no se han encontrado). **Fecha límite: 18-jul-2026** — si no se completa, este registro se re-etiqueta "verificación incompleta".
 
 ---
 
@@ -21,6 +22,6 @@ Cada ayuda concreta canalizada por la red queda registrada aquí. La transparenc
 
 | Métrica | Valor |
 |---|---|
-| Ayudas verificadas | 1 |
-| Personas alcanzadas | ~1,000 |
+| Ayudas registradas | 1 |
+| Platos servidos | ~1,000 |
 | Incidentes de opacidad | 0 |

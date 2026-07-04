@@ -3,83 +3,117 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Red de Células — comunidades pequeñas que resuelven necesidades reales, con transparencia financiera radical y sin dueño.">
-<title>Red de Células — Constitución y registros públicos</title>
+<meta name="description" content="Red de Células — comunidades pequeñas que resuelven necesidades reales. Sin dueño, sin secretos: cada ayuda y cada quetzal, a la vista de todos.">
+<title>Red de Células — ayuda real, cuentas abiertas</title>
 <style>
   :root{
-    --tinta:#1f2733; --fondo:#fbfaf7; --acento:#1d6a4f; --suave:#5b6675;
-    --linea:#e3ded4; --tarjeta:#ffffff;
+    --tinta:#22303c; --fondo:#faf7f2; --acento:#1d6a4f; --acento-osc:#14503b;
+    --suave:#66707c; --linea:#e7e0d3; --tarjeta:#ffffff; --crema:#f1ece1;
   }
   *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
   body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
-    background:var(--fondo);color:var(--tinta);line-height:1.65;font-size:17px}
-  main{max-width:720px;margin:0 auto;padding:1.25rem 1.1rem 4rem}
-  header{padding:2.5rem 0 1.5rem;border-bottom:3px solid var(--acento)}
-  h1{font-size:1.9rem;margin:0 0 .4rem;line-height:1.2}
-  .lema{color:var(--suave);font-size:1.05rem;margin:0}
+    background:var(--fondo);color:var(--tinta);line-height:1.7;font-size:17px}
+  main{max-width:760px;margin:0 auto;padding:0 1.1rem 4rem}
+
+  nav{position:sticky;top:0;background:rgba(250,247,242,.95);backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--linea);z-index:10}
+  nav .fila{max-width:760px;margin:0 auto;padding:.6rem 1.1rem;display:flex;
+    gap:1rem;overflow-x:auto;white-space:nowrap;font-size:.88rem}
+  nav a{color:var(--suave);text-decoration:none;font-weight:600}
+  nav a:hover{color:var(--acento)}
+  nav a.marca{color:var(--acento)}
+
+  header{padding:3.2rem 0 2.2rem;text-align:left}
+  h1{font-size:2.3rem;margin:0 0 .7rem;line-height:1.15;letter-spacing:-.02em}
+  .lema{color:var(--suave);font-size:1.15rem;margin:0;max-width:34em}
   .lema strong{color:var(--acento)}
-  h2{font-size:1.35rem;margin:2.4rem 0 .8rem;color:var(--acento)}
+
+  h2{font-size:1.4rem;margin:2.8rem 0 .9rem;color:var(--acento-osc);letter-spacing:-.01em}
   h3{font-size:1.05rem;margin:1.4rem 0 .4rem}
   p{margin:.6rem 0}
   ul{padding-left:1.2rem}
-  li{margin:.35rem 0}
-  .tarjeta{background:var(--tarjeta);border:1px solid var(--linea);border-radius:10px;
-    padding:1rem 1.1rem;margin:.8rem 0}
-  .estado{display:grid;grid-template-columns:1fr 1fr;gap:.7rem;margin:1rem 0}
-  .dato{background:var(--tarjeta);border:1px solid var(--linea);border-radius:10px;
-    padding:.9rem;text-align:center}
-  .dato .n{display:block;font-size:1.7rem;font-weight:700;color:var(--acento)}
-  .dato .e{font-size:.82rem;color:var(--suave)}
-  table{width:100%;border-collapse:collapse;font-size:.92rem;margin:.6rem 0}
-  th,td{text-align:left;padding:.5rem .4rem;border-bottom:1px solid var(--linea);vertical-align:top}
-  th{color:var(--suave);font-weight:600;font-size:.8rem;text-transform:uppercase;letter-spacing:.04em}
-  .pie{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--linea);
-    color:var(--suave);font-size:.9rem}
+  li{margin:.4rem 0}
   a{color:var(--acento)}
-  .aviso{background:#eef6f2;border-left:4px solid var(--acento);padding:.7rem .9rem;
-    border-radius:0 8px 8px 0;margin:1rem 0;font-size:.95rem}
+
+  .tarjeta{background:var(--tarjeta);border:1px solid var(--linea);border-radius:14px;
+    padding:1.1rem 1.25rem;margin:.9rem 0;box-shadow:0 1px 3px rgba(34,48,60,.05)}
+  .estado{display:grid;grid-template-columns:repeat(2,1fr);gap:.8rem;margin:1.1rem 0}
+  @media(min-width:640px){.estado{grid-template-columns:repeat(4,1fr)}}
+  .dato{background:var(--tarjeta);border:1px solid var(--linea);border-radius:14px;
+    padding:1rem .6rem;text-align:center;box-shadow:0 1px 3px rgba(34,48,60,.05)}
+  .dato .n{display:block;font-size:1.55rem;font-weight:750;color:var(--acento)}
+  .dato .e{font-size:.8rem;color:var(--suave);line-height:1.3;display:block;margin-top:.25rem}
+
+  table{width:100%;border-collapse:collapse;font-size:.93rem;margin:.6rem 0}
+  th,td{text-align:left;padding:.55rem .4rem;border-bottom:1px solid var(--linea);vertical-align:top}
+  th{color:var(--suave);font-weight:600;font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;width:8.5em}
+  tr:last-child td,tr:last-child th{border-bottom:none}
+
+  .aviso{background:#ecf4ef;border-left:4px solid var(--acento);padding:.8rem 1rem;
+    border-radius:0 10px 10px 0;margin:1.1rem 0;font-size:.96rem}
+  .pendiente{background:#faf3e3;border-left:4px solid #c9962e;padding:.8rem 1rem;
+    border-radius:0 10px 10px 0;margin:.8rem 0;font-size:.93rem}
+  .sello{display:inline-block;background:var(--crema);color:var(--acento-osc);font-size:.78rem;
+    font-weight:700;padding:.15rem .6rem;border-radius:99px;letter-spacing:.03em}
+
+  .cta{display:inline-block;background:var(--acento);color:#fff;text-decoration:none;
+    font-weight:700;padding:.7rem 1.3rem;border-radius:10px;margin:.5rem 0}
+  .cta:hover{background:var(--acento-osc)}
+
+  .pie{margin-top:3.2rem;padding-top:1.3rem;border-top:1px solid var(--linea);
+    color:var(--suave);font-size:.9rem}
 </style>
 </head>
 <body>
-<main>
+
+<nav><div class="fila">
+  <a class="marca" href="#arriba">Red de Células</a>
+  <a href="#estado">Estado</a>
+  <a href="#ayudas">Ayudas</a>
+  <a href="#finanzas">Finanzas</a>
+  <a href="#constitucion">Constitución</a>
+  <a href="#celulas">Células</a>
+  <a href="#replicar">Fundá una célula</a>
+</div></nav>
+
+<main id="arriba">
 
 <header>
-  <h1>Red de Células</h1>
-  <p class="lema">Comunidades pequeñas que resuelven necesidades reales, sin dueño y sin secretos.<br>
-  <strong>Credibilidad encarnada sobre estructura de poder.</strong></p>
+  <h1>Ayuda real, cuentas abiertas.</h1>
+  <p class="lema">Somos comunidades pequeñas que resuelven necesidades concretas: comida, deuda, empleo, compañía. <strong>Sin dueño y sin secretos</strong> — cada ayuda y cada quetzal quedan a la vista de todos, para siempre. Lo digital coordina; el encuentro es en persona.</p>
 </header>
 
-<h2>Estado de la red — a la vista de todos</h2>
+<h2 id="estado">El estado de la red, a la vista de todos</h2>
 <div class="estado">
-  <div class="dato"><span class="n">1</span><span class="e">ayuda verificada</span></div>
-  <div class="dato"><span class="n">~1,000</span><span class="e">personas alcanzadas</span></div>
+  <div class="dato"><span class="n">1</span><span class="e">ayuda registrada</span></div>
+  <div class="dato"><span class="n">~1,000</span><span class="e">platos servidos</span></div>
   <div class="dato"><span class="n">Q0.00</span><span class="e">dinero manejado</span></div>
   <div class="dato"><span class="n">0</span><span class="e">incidentes de opacidad</span></div>
 </div>
-<p class="aviso">Todo lo que ves aquí es público y auditable: cada ayuda, cada quetzal y cada cambio a las reglas queda registrado en un <a href="https://github.com/EstebanRecinos/red-de-celulas">repositorio abierto</a> cuyo historial nadie puede borrar.</p>
+<p class="aviso">Nada de lo que ves aquí depende de nuestra palabra: todo vive en un <a href="https://github.com/EstebanRecinos/red-de-celulas">repositorio público</a> cuyo historial nadie — ni nosotros — puede borrar ni reescribir. Si encontrás un error, decínoslo: corregirlo en público es parte del testimonio.</p>
 
-<h2>Registro de ayudas verificadas</h2>
+<h2 id="ayudas">Registro de ayudas</h2>
 <div class="tarjeta">
-  <h3>Ayuda #001 — Alimentación</h3>
+  <h3 style="margin-top:.2rem">Ayuda #001 — Alimentación <span class="sello">expediente en proceso</span></h3>
   <table>
-    <tr><th>Fecha</th><td>4 de abril de 2026, 13:52</td></tr>
+    <tr><th>Fecha</th><td>4 de abril de 2026</td></tr>
     <tr><th>Lugar</th><td>KM 29.5, Caserío Concepción Rabanales, Fraijanes, Guatemala</td></tr>
-    <tr><th>Resultado</th><td>1,000 personas alimentadas en un día</td></tr>
-    <tr><th>Recursos</th><td>Donaciones en especie (alimentos donados directamente). Sin flujo de dinero.</td></tr>
-    <tr><th>Verificación</th><td>Donantes presentes durante la entrega.</td></tr>
+    <tr><th>Resultado</th><td>~1,000 platos de comida servidos en un día (pizza donada)</td></tr>
+    <tr><th>Recursos</th><td>Donación en especie de un donante que pidió reserva de su nombre. No hubo flujo de dinero.</td></tr>
+    <tr><th>Registró</th><td>Delia Genoveva, de la célula de Fraijanes</td></tr>
   </table>
+  <p class="pendiente"><strong>Lo decimos tal cual:</strong> a este registro le falta un segundo verificador público y evidencia fotográfica (las fotos no se han encontrado). Si el expediente no se completa antes del 18 de julio de 2026, la ayuda quedará re-etiquetada como "verificación incompleta", según nuestro <a href="https://github.com/EstebanRecinos/red-de-celulas/blob/main/registro/verificacion.md">protocolo de verificación</a>. Preferimos un registro corto y verdadero a uno grande e inflado.</p>
 </div>
+<p>Cada ayuda se comprueba con evidencia proporcional a su tamaño, verificadores con nombre, y registro inalterable — sin exponer jamás a quien la recibe. La carga de la prueba es nuestra, nunca del que pide ayuda. Así funciona: <a href="https://github.com/EstebanRecinos/red-de-celulas/blob/main/registro/verificacion.md">protocolo completo</a>.</p>
 
-<h2>Finanzas públicas</h2>
+<h2 id="finanzas">Finanzas públicas</h2>
 <div class="tarjeta">
-  <p><strong>Saldo actual: Q0.00.</strong> Aún no ha entrado ni salido un solo quetzal. El día que entre, se publica el mismo día: monto, origen, responsable y comprobante. Un movimiento no registrado es un incidente de opacidad — la meta es cero, siempre.</p>
+  <p style="margin:.2rem 0"><strong>Saldo actual: Q0.00.</strong> Aún no ha entrado ni salido un solo quetzal. El día que entre, se publica ese mismo día: monto, origen, responsable y comprobante, con dos personas confirmando cada movimiento. Un quetzal no registrado es un incidente de opacidad — y la meta es cero, siempre.</p>
 </div>
 
-<h2>Constitución de Los Hechos — v1.0</h2>
-<p class="lema"><em>Aquí solo cuentan los hechos: ayudas verificadas y cuentas abiertas.</em></p>
-<p class="aviso">Ratificada por la célula fundadora en julio de 2026. Cada ayuda se comprueba según un <a href="https://github.com/EstebanRecinos/red-de-celulas/blob/main/registro/verificacion.md">protocolo de verificación público</a>: la carga de la prueba es nuestra, nunca de quien recibe.</p>
-
-<p>Acelerar la expansión del cristianismo genuino mediante comunidades pequeñas que resuelven necesidades reales, coordinadas digitalmente, diseñadas estructuralmente para resistir la captura por redes de poder. Crecemos por coherencia costosa, no por marketing ni jerarquía.</p>
+<h2 id="constitucion">Constitución de Los Hechos <span class="sello">v1.0 — ratificada</span></h2>
+<p class="lema" style="font-size:1rem"><em>Se llama así por el libro de los Hechos, donde la fe se cuenta por lo que se hizo — y porque aquí solo cuentan los hechos: ayudas verificadas y cuentas abiertas.</em></p>
 
 <h3>Los 5 innegociables</h3>
 <div class="tarjeta">
@@ -90,37 +124,35 @@
 <p><strong>5. Neutralidad partidista.</strong> La red no apoya candidatos, partidos ni campañas. Ningún líder puede usar la red como plataforma política. Hacerlo es causal inmediata de rotación.</p>
 </div>
 
-<h3>Gobernanza</h3>
-<p><strong>Liderazgo rotativo.</strong> Cada célula tiene un facilitador que rota cada 6 meses, sin reelección consecutiva. Nadie facilita dos períodos seguidos, sin excepciones — ni el fundador.</p>
-<p><strong>Decisiones.</strong> Las decisiones de cada célula se toman por consenso de sus miembros. Los cambios a esta constitución requieren acuerdo de la mayoría de las células activas.</p>
-<p><strong>El fundador no es dueño.</strong> Quien inició este proyecto tiene un voto, como cualquier miembro. Su función es documentar y servir, no dirigir a perpetuidad.</p>
+<h3>Cómo se gobierna</h3>
+<p>Cada célula tiene un facilitador que <strong>rota cada 6 meses, sin reelección consecutiva</strong> — sin excepciones, ni para el fundador. Las decisiones se toman por consenso de los miembros, y los cambios a la constitución requieren acuerdo de la mayoría de las células activas. Quien inició este proyecto tiene un voto, como cualquier miembro: su función es documentar y servir, no dirigir a perpetuidad.</p>
 
 <h3>Qué es una célula</h3>
 <ul>
   <li>Entre 8 y 15 personas, reunión presencial semanal.</li>
-  <li>Registra semanalmente las necesidades atendidas: qué se pidió, si se resolvió, cuánto tardó (sin exponer identidades vulnerables).</li>
+  <li>Registra semanalmente las necesidades atendidas: qué se pidió, si se resolvió, cuánto tardó — sin exponer identidades vulnerables.</li>
   <li>Publica sus finanzas (si maneja dinero) en registro abierto.</li>
-  <li>Es autónoma: adopta esta constitución pero no responde a autoridad central.</li>
+  <li>Es autónoma: adopta la constitución pero no responde a autoridad central.</li>
 </ul>
-<p>Cuando una célula supera 15 personas, se divide en dos. <strong>Crecemos por multiplicación, no por acumulación.</strong></p>
+<p>Cuando una célula supera 15 personas, se divide en dos. <strong>Crecemos por multiplicación, no por acumulación.</strong> Y si un líder oculta cuentas, se niega a rotar o usa la red con fines políticos o de lucro, cualquier miembro puede invocar el protocolo anti-captura: deliberación pública y rotación inmediata. La salida siempre está abierta — el poder aquí no se acumula porque no hay nada que acumular.</p>
+<p><a href="https://github.com/EstebanRecinos/red-de-celulas/blob/main/CONSTITUCION.md">Leer la constitución completa →</a></p>
 
-<h3>Protocolo anti-captura</h3>
-<p>Si un líder o grupo oculta información financiera, se niega a rotar, o usa la red para fines político-partidistas o de lucro personal, cualquier miembro puede invocar este protocolo: se documenta públicamente el hecho, la célula delibera sin la persona señalada, y si se confirma, la rotación es inmediata. Si la célula completa está capturada, las demás células la desvinculan de la red.</p>
-<p><strong>La salida siempre está abierta.</strong> El poder aquí no se acumula porque no hay nada que acumular: todo es de todos y nada es de nadie.</p>
+<h2 id="celulas">Las células y quién las facilita</h2>
+<p>La transparencia sobre el poder empieza por quienes lo ejercen: cada facilitador es público, con su período contado desde el primer día.</p>
+<div class="tarjeta">
+  <h3 style="margin-top:.2rem">Célula 001 — Fraijanes, Guatemala</h3>
+  <table>
+    <tr><th>Miembros</th><td>Delia Genoveva, Angela Consuelo, Gabriela Briones, Edwin Gomez, Marcelino Tije, Carmen Leonardo y Esteban Recinos Leonardo — publicados con el consentimiento de cada uno</td></tr>
+    <tr><th>Facilitador</th><td>Esteban Recinos Leonardo</td></tr>
+    <tr><th>Período</th><td>julio 2026 → enero 2027 — al vencer, rota <strong>sin posibilidad de reelección consecutiva</strong></td></tr>
+    <tr><th>Ratificó</th><td>la Constitución de Los Hechos como v1.0, en julio de 2026</td></tr>
+  </table>
+</div>
 
-<h3>Métricas de fruto (lo único que medimos)</h3>
-<ul>
-  <li>Necesidades resueltas y verificadas por mes</li>
-  <li>Tiempo promedio entre pedido de ayuda y respuesta</li>
-  <li>Retención de miembros a 6 meses</li>
-  <li>Incidentes de opacidad: la meta es cero, siempre</li>
-</ul>
-
-<h2>Célula fundadora</h2>
-<p>Seis miembros fundadores: <strong>Delia Genoveva, Angela Consuelo, Gabriela Briones, Edwin Gomez, Marcelino Tije y Carmen Leonardo</strong> — publicados con el consentimiento de cada uno, porque la transparencia sobre el poder empieza por quienes lo ejercen. La célula ratificó la constitución como versión 1.0 en julio de 2026.</p>
-
-<h2>¿Querés fundar una célula?</h2>
-<p>No necesitás permiso de nadie. Copiá los materiales del <a href="https://github.com/EstebanRecinos/red-de-celulas">repositorio público</a>, adoptá la constitución y empezá a registrar tus ayudas y finanzas abiertamente. Ese derecho está garantizado por la licencia: nadie puede quitártelo.</p>
+<h2 id="replicar">¿Querés fundar una célula donde vivís?</h2>
+<p>No necesitás permiso de nadie — ni nuestro. Copiá los materiales, adoptá la constitución, juntá a tu gente y empezá a registrar tus ayudas y tus cuentas a la vista de todos. La licencia libre garantiza ese derecho para siempre: nadie puede quitártelo ni cobrarte por él.</p>
+<a class="cta" href="https://github.com/EstebanRecinos/red-de-celulas">Llevate todo desde GitHub</a>
+<p style="font-size:.92rem;color:var(--suave)">Ahí encontrás la constitución, los formatos de registro y hasta el botón para publicar tu propio sitio gratis.</p>
 
 <div class="pie">
   <p>Todo el contenido está bajo licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a>: libre de copiar, adaptar y replicar, con la obligación de mantenerlo abierto. Nadie puede privatizarlo.</p>
