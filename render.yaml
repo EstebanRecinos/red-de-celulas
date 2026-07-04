@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: red-de-celulas
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
