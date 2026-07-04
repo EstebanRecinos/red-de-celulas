@@ -1,4 +1,4 @@
-# Constitución — versión 0.1
+# Constitución — versión 1.0
 
 ## Propósito
 
@@ -68,9 +68,7 @@ cualquier miembro puede invocar este protocolo: se documenta públicamente el he
 
 ## Revisión de este documento
 
-Esta es la versión 0.1: un punto de partida, no un dogma. Toda propuesta de cambio se hace públicamente en este repositorio, se discute abiertamente y queda registrada en el historial. Nada se cambia en secreto.
-
-La célula fundadora ratificará y enmendará este documento para producir la versión 1.0.
+Versión 1.0, ratificada por la célula fundadora en julio de 2026. No es un dogma: toda propuesta de cambio se hace públicamente en este repositorio, se discute abiertamente y queda registrada en el historial. Nada se cambia en secreto. Los cambios requieren acuerdo de la mayoría de las células activas.
 
 ---
 

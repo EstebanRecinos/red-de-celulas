@@ -2,7 +2,7 @@
 
 Cada ayuda concreta canalizada por la red queda registrada aquí. La transparencia aplica al dinero y al poder, nunca a las personas vulnerables: los beneficiarios no se identifican jamás sin su consentimiento expreso.
 
-**Formato de cada registro:** número, fecha, lugar, necesidad atendida, resultado, origen de los recursos, verificación.
+**Formato de cada registro:** número, fecha, lugar, necesidad atendida, resultado, origen de los recursos, verificación — según el [protocolo de verificación](verificacion.md).
 
 ---
 
@@ -13,7 +13,7 @@ Cada ayuda concreta canalizada por la red queda registrada aquí. La transparenc
 - **Necesidad atendida:** alimentación
 - **Resultado:** 1,000 personas alimentadas en un día
 - **Origen de los recursos:** donaciones en especie (alimentos donados directamente). No hubo flujo de dinero; ver [finanzas.md](finanzas.md).
-- **Verificación:** donantes presentes durante la entrega actúan como verificadores. Sus identidades constan en el registro interno de la célula y se publicarán cuando den su consentimiento.
+- **Verificación:** donantes presentes durante la entrega actúan como verificadores. Sus identidades constan en el registro interno de la célula y se publicarán cuando den su consentimiento. Expediente en proceso de completarse según el [protocolo de verificación](verificacion.md) (fecha límite: 18-jul-2026).
 
 ---
 

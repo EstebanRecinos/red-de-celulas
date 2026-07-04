@@ -6,15 +6,16 @@ Comunidades pequeñas que resuelven necesidades reales, coordinadas digitalmente
 
 ## Documentos
 
-- **[Constitución v0.1](CONSTITUCION.md)** — los 5 innegociables, gobernanza, qué es una célula, protocolo anti-captura.
+- **[Constitución v1.0](CONSTITUCION.md)** — los 5 innegociables, gobernanza, qué es una célula, protocolo anti-captura.
 - **[Registro de ayudas](registro/ayudas.md)** — cada ayuda concreta, verificada y pública.
 - **[Registro de finanzas](registro/finanzas.md)** — cada quetzal que entra o sale, en tiempo real.
+- **[Protocolo de verificación](registro/verificacion.md)** — cómo comprobamos que cada ayuda ocurrió, sin exponer a quien la recibe.
 - **[Licencia CC BY-SA 4.0](LICENSE.md)** — todo es replicable; nadie puede privatizarlo.
 
 ## Estado actual
 
-- **Constitución:** v0.1 publicada; será ratificada y enmendada por la célula fundadora para producir la v1.0.
-- **Célula fundadora:** 6 miembros (D.G., A.C., G.B., E.G., M.T., C.L. — nombres completos se publicarán con el consentimiento de cada uno).
+- **Constitución:** v1.0, ratificada por la célula fundadora en julio de 2026.
+- **Célula fundadora:** 6 miembros — Delia Genoveva, Angela Consuelo, Gabriela Briones, Edwin Gomez, Marcelino Tije y Carmen Leonardo (publicados con el consentimiento de cada uno).
 - **Ayudas verificadas:** 1 (≈1,000 personas alimentadas, Fraijanes, abril 2026).
 - **Dinero manejado a la fecha:** Q0.00.
 
