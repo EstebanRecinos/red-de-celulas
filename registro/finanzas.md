@@ -22,7 +22,9 @@ Las donaciones que no son dinero (alimentos, materiales, transporte) también se
 
 | # | Fecha | Descripción | Destino | Verificación |
 |---|---|---|---|---|
-| E-001 | 2026-04-04 | Alimentos donados directamente para jornada de alimentación | Ayuda #001 — Fraijanes, 1,000 personas | Donantes presentes en la entrega |
+| E-001 | 2026-04-04 | Pizza para ~1,000 platos, comprada y pagada de su bolsillo por Esteban Recinos Leonardo (fundador), pago directo al proveedor. **Valor en quetzales: pendiente de documentar con recibo.** | Ayuda #001 — Fraijanes | [Chat de coordinación del 4-abr](evidencia/ayuda-001/chat-2026-04-04.md); Delia Genoveva Civas Flores presente en la entrega |
+
+**Corrección pública (4-jul-2026):** este movimiento se registró primero como "donación en especie de donante que pidió reserva". El donante era el fundador. La reserva de nombre protege a donantes externos; **no aplica al fundador ni a ningún miembro con poder en la red**, porque la transparencia sobre el dinero y el poder no admite excepciones. El dinero no pasó por cuentas de la red (pago personal directo al proveedor), por eso el saldo sigue en Q0.00, pero el valor de la donación se documentará con el recibo.
 
 ---
 

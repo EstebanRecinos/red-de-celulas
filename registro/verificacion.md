@@ -57,10 +57,12 @@ Si un periodista, un fiscal o un escéptico pregunta, esto es lo que se hace —
 
 La ayuda #001 (~1,000 platos servidos, Fraijanes, 4-abr-2026) se registró antes de que existiera este protocolo. Estado del expediente al 4 de julio de 2026:
 
-- [x] Método de conteo: platos servidos (~1,000), donación de pizza
-- [x] Origen de los recursos: donante en especie que pidió reserva de su nombre (aceptado: la reserva no condicionó la ayuda)
-- [x] Primera verificadora: Delia Genoveva, quien registró la jornada
-- [ ] Segundo verificador presente que consienta ser público
+- [x] Método de conteo: ~1,000 platos, **estimación en sitio** de Delia Genoveva Civas Flores la mañana del evento (sin conteo formal; así se declara)
+- [x] Origen de los recursos: pizza pagada de su bolsillo por el fundador, directo al proveedor — corregido públicamente el 4-jul-2026 (antes decía "donante con reserva"; la reserva no aplica al fundador)
+- [x] Evidencia documental: [transcripción del chat de coordinación](evidencia/ayuda-001/chat-2026-04-04.md), con consentimiento de ambos participantes
+- [x] Primera verificadora: Delia Genoveva Civas Flores, presente en la entrega (no puede contar dos veces: registró Y verifica una sola vez)
+- [ ] Segundo verificador **externo a la célula** (alguien de la escuela, un repartidor, un líder comunitario presente) — Esteban no puede verificar su propia entrega
+- [ ] Recibo o monto de la compra de pizza, para completar el valor en finanzas.md
 - [ ] Fotos de la jornada sin rostros identificables de quienes recibieron — **no se han encontrado**
 
 **Fecha límite: 18 de julio de 2026.** Si no se completa, la ayuda se re-etiqueta como "registro histórico — verificación incompleta". Decir la verdad sobre nuestro propio registro, incluso cuando duele, es el testimonio.

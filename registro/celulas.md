@@ -8,7 +8,7 @@ La transparencia sobre el poder empieza por quienes lo ejercen: cada célula pub
 
 | Campo | Valor |
 |---|---|
-| Miembros | Delia Genoveva, Angela Consuelo, Gabriela Briones, Edwin Gomez, Marcelino Tije, Carmen Leonardo, Esteban Recinos Leonardo |
+| Miembros | Delia Genoveva Civas Flores, Angela Consuelo, Gabriela Briones, Edwin Gomez, Marcelino Tije, Carmen Leonardo, Esteban Recinos Leonardo |
 | Facilitador actual | Esteban Recinos Leonardo |
 | Período | julio 2026 → enero 2027 |
 | Próxima rotación | enero 2027 — Esteban Recinos Leonardo no puede ser reelecto para el período siguiente |

@@ -11,10 +11,11 @@ Cada ayuda concreta canalizada por la red queda registrada aquí. La transparenc
 - **Fecha:** 4 de abril de 2026
 - **Lugar:** KM 29.5, Caserío Concepción Rabanales, Fraijanes, Guatemala
 - **Necesidad atendida:** alimentación
-- **Resultado:** ~1,000 platos de comida servidos en un día (pizza donada)
-- **Origen de los recursos:** donación en especie de un donante que pidió reserva de su nombre. No hubo flujo de dinero; ver [finanzas.md](finanzas.md).
-- **Registró:** Delia Genoveva (célula 001 — Fraijanes)
-- **Verificación:** expediente en proceso según el [protocolo de verificación](verificacion.md). Falta un segundo verificador público y evidencia fotográfica (las fotos no se han encontrado). **Fecha límite: 18-jul-2026** — si no se completa, este registro se re-etiqueta "verificación incompleta".
+- **Resultado:** ~1,000 platos de comida servidos en un día (pizza; estimación en sitio, sin conteo formal)
+- **Origen de los recursos:** pizza comprada y pagada de su bolsillo por Esteban Recinos Leonardo (fundador y facilitador), directamente al proveedor. Registrada como donación suya en [finanzas.md](finanzas.md); el monto se documentará con el recibo. *Nota: este registro decía antes "donante que pidió reserva" — la reserva no aplica cuando el donante es el fundador, porque la transparencia sobre el poder no admite excepciones. Se corrige a la vista de todos.*
+- **Registró:** Delia Genoveva Civas Flores (célula 001 — Fraijanes)
+- **Evidencia:** [transcripción del chat de coordinación del 4-abr-2026](evidencia/ayuda-001/chat-2026-04-04.md), publicada con consentimiento de ambos participantes.
+- **Verificación:** primera verificadora, Delia Genoveva Civas Flores (presente en la entrega). Esteban no puede verificar su propia entrega. **Falta un segundo verificador externo** a la célula y no hay fotos (se declara tal cual). **Fecha límite: 18-jul-2026** — si no se completa, este registro se re-etiqueta "verificación incompleta".
 
 ---
 
