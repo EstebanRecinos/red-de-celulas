@@ -1,4 +1,6 @@
-# Constitución — versión 1.0
+# Constitución de Los Hechos — versión 1.0
+
+*Se llama así por el libro de los Hechos, donde la fe se cuenta por lo que se hizo — y porque aquí solo cuentan los hechos: ayudas verificadas y cuentas abiertas.*
 
 ## Propósito
 

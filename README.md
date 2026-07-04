@@ -6,7 +6,7 @@ Comunidades pequeñas que resuelven necesidades reales, coordinadas digitalmente
 
 ## Documentos
 
-- **[Constitución v1.0](CONSTITUCION.md)** — los 5 innegociables, gobernanza, qué es una célula, protocolo anti-captura.
+- **[Constitución de Los Hechos (v1.0)](CONSTITUCION.md)** — los 5 innegociables, gobernanza, qué es una célula, protocolo anti-captura.
 - **[Registro de ayudas](registro/ayudas.md)** — cada ayuda concreta, verificada y pública.
 - **[Registro de finanzas](registro/finanzas.md)** — cada quetzal que entra o sale, en tiempo real.
 - **[Protocolo de verificación](registro/verificacion.md)** — cómo comprobamos que cada ayuda ocurrió, sin exponer a quien la recibe.
@@ -14,7 +14,7 @@ Comunidades pequeñas que resuelven necesidades reales, coordinadas digitalmente
 
 ## Estado actual
 
-- **Constitución:** v1.0, ratificada por la célula fundadora en julio de 2026.
+- **Constitución de Los Hechos:** v1.0, ratificada por la célula fundadora en julio de 2026.
 - **Célula fundadora:** 6 miembros — Delia Genoveva, Angela Consuelo, Gabriela Briones, Edwin Gomez, Marcelino Tije y Carmen Leonardo (publicados con el consentimiento de cada uno).
 - **Ayudas verificadas:** 1 (≈1,000 personas alimentadas, Fraijanes, abril 2026).
 - **Dinero manejado a la fecha:** Q0.00.
@@ -22,6 +22,10 @@ Comunidades pequeñas que resuelven necesidades reales, coordinadas digitalmente
 ## Cómo replicar
 
 Cualquier persona, en cualquier lugar, puede fundar una célula compatible con esta constitución **sin pedir permiso a nadie**: copiá este repositorio, adoptá la constitución y empezá a registrar. La licencia CC BY-SA garantiza ese derecho y a la vez impide que alguien cierre o privatice el material.
+
+Para publicar tu propio sitio gratis en Render (un clic, usa el `render.yaml` incluido):
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/EstebanRecinos/red-de-celulas)
 
 ## Cómo proponer cambios
 
