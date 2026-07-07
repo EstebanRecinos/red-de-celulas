@@ -11,6 +11,7 @@ Comunidades pequeñas que resuelven necesidades reales, coordinadas digitalmente
 - **[Registro de finanzas](registro/finanzas.md)** — cada quetzal que entra o sale, en tiempo real.
 - **[Protocolo de verificación](registro/verificacion.md)** — cómo comprobamos que cada ayuda ocurrió, sin exponer a quien la recibe.
 - **[Registro de células](registro/celulas.md)** — quién facilita cada célula y cuándo vence su período.
+- **[Diario de Los Hechos](diario/DIARIO-DE-LOS-HECHOS.md)** — el capítulo 29: cómo la gente común ha visto actuar al Espíritu. Nunca se cierra. ([Cómo escribir](diario/como-escribir.md))
 - **[Licencia CC BY-SA 4.0](LICENSE.md)** — todo es replicable; nadie puede privatizarlo.
 
 ## Estado actual
