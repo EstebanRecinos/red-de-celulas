@@ -61,8 +61,8 @@ La ayuda #001 (~1,000 platos servidos, Fraijanes, 4-abr-2026) se registró antes
 - [x] Origen de los recursos: pizza pagada de su bolsillo por el fundador, directo al proveedor — corregido públicamente el 4-jul-2026 (antes decía "donante con reserva"; la reserva no aplica al fundador)
 - [x] Evidencia documental: [transcripción del chat de coordinación](evidencia/ayuda-001/chat-2026-04-04.md), con consentimiento de ambos participantes
 - [x] Primera verificadora: Delia Genoveva Civas Flores, presente en la entrega (no puede contar dos veces: registró Y verifica una sola vez)
-- [ ] Segundo verificador **externo a la célula** (alguien de la escuela, un repartidor, un líder comunitario presente) — Esteban no puede verificar su propia entrega
-- [ ] Recibo o monto de la compra de pizza, para completar el valor en finanzas.md
+- [~] Segundo verificador **externo a la célula**: el director de la escuela donde se hizo la entrega. Identificado; **falta su nombre completo y su consentimiento de ser público y contactable**
+- [x] Monto de la compra de pizza: **Q5,000.00** declarado por el facilitador (recibo de la pizzería pendiente de adjuntar)
 - [ ] Fotos de la jornada sin rostros identificables de quienes recibieron — **no se han encontrado**
 
 **Fecha límite: 18 de julio de 2026.** Si no se completa, la ayuda se re-etiqueta como "registro histórico — verificación incompleta". Decir la verdad sobre nuestro propio registro, incluso cuando duele, es el testimonio.
