@@ -23,6 +23,7 @@ Sitio estático + registros públicos en markdown de la **Red de Células**: com
 4. **Dinero siempre a la vista**: cualquier mención de dinero se asienta en `registro/finanzas.md` el mismo día, con responsable y comprobante. Al fundador no se le aplica reserva de nombre.
 5. **Anti-espectáculo**: nada de likes, contadores, testimonios destacados, fotos de impacto ni lenguaje de marketing. Tono sobrio y humilde, como se habla en la mesa de una casa guatemalteca (voseo).
 6. **Consentimiento antes de publicar**: nombres de personas solo con su "sí" registrado. Los registros que esperan un dato lo dicen explícitamente ("pendiente"), nunca se inventa.
+7. **Los .md y el sitio van siempre juntos**: los archivos markdown (`registro/*.md`, `diario/*.md`) son la fuente de verdad, pero `index.html` y `diario.html` tienen el contenido escrito a mano. Al publicar un registro o una entrada del diario, actualizá TAMBIÉN la página HTML correspondiente (nueva entrada del diario → `diario.html`; nueva ayuda o cambio de totales/métricas → tarjetas y contadores de `index.html`) en el mismo commit. Un registro que está en GitHub pero no en el sitio es un registro a medias.
 
 ## Contexto operativo
 
